@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import  { count, length } from  './number.js';
 
 const text = "Test № ";
 const  boolean = true;
@@ -33,6 +34,12 @@ function App() {
               {false}
               {true}
           </p>
+          <p>
+            {'Test import ' + count};
+          </p>
+        <p>
+          {'Test import ' + length};
+        </p>
       </header>
     </div>
   );
