@@ -2,7 +2,7 @@ import React from 'react';
 import Item from '../Item/Item';
 
 const ItemList = ({props}) => (<ol>
-    {props.map(item => (<li key = {item.value}> <Item value = {item.value}/> </li>))}
+    {props.map(item => (<li key={item.value}><Item value={item.value} isDone={item.isDone}/></li>))}
 </ol>);
 
-export default ItemList ;
+export default ItemList;
