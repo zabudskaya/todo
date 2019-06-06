@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Item = ({props}) => (<p>{props}</p>);
+const Item = ({value}) => (<p>{value}</p>);
 
 export default Item;
