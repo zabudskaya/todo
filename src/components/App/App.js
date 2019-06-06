@@ -3,7 +3,7 @@ import ItemList from '../ItemList/ItemList';
 import Footer from "../Footer/Footer";
 import InputItem from "../InputItem/InputItem";
 
-import './App.css'
+import styles from './App.module.css'
 
 const App = () => {
     const props = [
@@ -19,10 +19,10 @@ const App = () => {
         ];
 
         return (
-            <div className="wrap">
-                <h1 className="wrap__title">Список дел:</h1>
+            <div className={styles.wrap}>
+                <h1>Список дел:</h1>
                 <InputItem/>
-                <ItemList props={props} className="wrap__list"/>
+                <ItemList props={props}/>
                 <Footer count={3}/>
             </div>
         );
