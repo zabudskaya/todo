@@ -5,9 +5,10 @@ import InputItem from "../InputItem/InputItem";
 import styles from './App.module.css';
 
 
+
 class App extends React.Component{
-    render(){
-        const props = [
+    state = {
+        items: [
             {
                 value: 'Закончить блок js.',
                 isDone: true
@@ -24,13 +25,14 @@ class App extends React.Component{
                 value: 'Сделать финальный проект.',
                 isDone: false
             }
-        ];
-
+        ]
+    };
+    render(){
         return (
             <div className={styles.wrap}>
                 <h1 className={styles.title}>Список дел:</h1>
                 <InputItem/>
-                <ItemList props={props}/>
+                <ItemList props={this.state.items}/>
                 <Footer count={3}/>
             </div>
         );
