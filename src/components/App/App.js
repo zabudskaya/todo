@@ -5,9 +5,9 @@ import InputItem from "../InputItem/InputItem";
 import styles from './App.module.css';
 
 
-
-const App = () => {
-    const props = [
+class App extends React.Component{
+    render(){
+        const props = [
             {
                 value: 'Закончить блок js.',
                 isDone: true
@@ -34,6 +34,8 @@ const App = () => {
                 <Footer count={3}/>
             </div>
         );
-};
+    }
+
+}
 
 export default App;
