@@ -27,17 +27,19 @@ class App extends React.Component{
             }
         ]
     };
+
+    onClickDone = isDone => console.log(isDone);
+
     render(){
         return (
             <div className={styles.wrap}>
                 <h1 className={styles.title}>Список дел:</h1>
                 <InputItem/>
-                <ItemList props={this.state.items}/>
+                <ItemList props={this.state.items} onClickDone={this.onClickDone} />
                 <Footer count={3}/>
             </div>
         );
     }
 
 }
-
 export default App;
