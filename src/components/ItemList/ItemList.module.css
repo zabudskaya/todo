@@ -52,6 +52,7 @@
     width: 12px;
     height: 12px;
     cursor: pointer;
+    outline: none;
 }
 .button:hover{
     font-size: 22px;

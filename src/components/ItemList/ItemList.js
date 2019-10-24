@@ -1,10 +1,10 @@
 import React from 'react';
 import Item from '../Item/Item';
-import styles from './ItemList.module.css'
+import styles from './ItemList.module.css';
 
-const ItemList = ({props, onClickDone}) => (<ol className={styles.list}>
+const ItemList = ({props, onClickDone, onClickDelete}) => (<ol className={styles.list}>
     {props.map((item, index)=> (
-        <li className={styles.item} key={item.value}>
+        <li className={styles.item} key={item.value} id={item.id}>
             <input type="checkbox"  className={styles.checkbox} id={`checkbox[${index}]`}/>
             <Item
                 value={item.value}
@@ -13,7 +13,11 @@ const ItemList = ({props, onClickDone}) => (<ol className={styles.list}>
                 id={item.id}
                 onClickDone={onClickDone}
             />
-            <button type="button" className={styles.button}>×</button>
+            <button type="button"
+                    onClick ={() => onClickDelete(item.id)}
+                    className={styles.button}>
+                ×
+            </button>
         </li>))}
 </ol>);
 
