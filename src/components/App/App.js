@@ -67,7 +67,9 @@ class App extends React.Component{
                 <h1 className={styles.title}>Список дел:</h1>
                 <InputItem onClickAdd={this.onClickAdd}/>
                 <ItemList props={this.state.items} onClickDone={this.onClickDone} onClickDelete={this.onClickDelete} />
-                <Footer count={this.state.count}/>
+                <Footer
+                    // count={this.state.count}
+                />
             </div>
         );
     }
