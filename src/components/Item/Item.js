@@ -14,9 +14,4 @@ const Item = ({value, isDone, index, onClickDone, id}) => (
         {value}
     </label>);
 
-Item.defaultProps = {
-    value: 'Тут должно быть задание',
-    isDone: false
-};
-
 export default Item;

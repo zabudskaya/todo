@@ -7,8 +7,8 @@ const ItemList = ({props, onClickDone, onClickDelete}) => (<ol className={styles
         <li className={styles.item} key={item.value} id={item.id}>
             <input type="checkbox"  className={styles.checkbox} id={`checkbox[${index}]`}/>
             <Item
-                // value={item.value}
-                // isDone={item.isDone}
+                value={item.value}
+                isDone={item.isDone}
                 index={index}
                 id={item.id}
                 onClickDone={onClickDone}
