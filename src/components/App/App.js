@@ -68,7 +68,7 @@ class App extends React.Component{
                 <InputItem onClickAdd={this.onClickAdd}/>
                 <ItemList props={this.state.items} onClickDone={this.onClickDone} onClickDelete={this.onClickDelete} />
                 <Footer
-                    // count={this.state.count}
+                    count={this.state.count}
                 />
             </div>
         );

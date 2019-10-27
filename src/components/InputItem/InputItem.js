@@ -2,11 +2,14 @@ import React from 'react';
 import TextField from '@material-ui/core/TextField';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
-import classname from 'classnames';
-import styles from './InputItem.module.css';
+import PropTypes from 'prop-types';
 
 
 class InputItem extends React.Component{
+
+    static propTypes = {
+        onClickAdd: PropTypes.func.isRequired
+    };
 
     state = {
         inputValue: ''
@@ -55,5 +58,6 @@ class InputItem extends React.Component{
         );
     }
 }
+
 
 export default InputItem;
