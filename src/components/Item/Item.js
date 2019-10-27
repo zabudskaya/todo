@@ -6,11 +6,15 @@ import PropTypes from 'prop-types';
 class Item extends React.Component{
 
     componentDidMount() {
-        this.timer = setInterval(() => console.log('mount'), 1000);
+        console.log('mount');
+    };
+
+    componentDidUpdate() {
+        console.log('update');
     };
 
     componentWillUnmount() {
-      clearInterval(this.timer);
+      console.log('unmount')
     };
 
     static propTypes = {
