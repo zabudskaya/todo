@@ -1,0 +1,14 @@
+.box{
+    margin: 0;
+}
+.input{
+    margin-bottom: 10px !important;
+    width: 100%;
+}
+.button{
+    width: 100%;
+    color: #ffffff;
+    background-color: #303f9f;
+    border-radius: 5px;
+    padding: 10px;
+}
