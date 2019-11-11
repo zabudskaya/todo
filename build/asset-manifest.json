@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WebHeroSchool/todo/static/css/main.9c3584a3.chunk.css",
+    "main.js": "/WebHeroSchool/todo/static/js/main.837b54ea.chunk.js",
+    "main.js.map": "/WebHeroSchool/todo/static/js/main.837b54ea.chunk.js.map",
+    "runtime~main.js": "/WebHeroSchool/todo/static/js/runtime~main.8a7c92da.js",
+    "runtime~main.js.map": "/WebHeroSchool/todo/static/js/runtime~main.8a7c92da.js.map",
+    "static/js/2.d7754c60.chunk.js": "/WebHeroSchool/todo/static/js/2.d7754c60.chunk.js",
+    "static/js/2.d7754c60.chunk.js.map": "/WebHeroSchool/todo/static/js/2.d7754c60.chunk.js.map",
+    "index.html": "/WebHeroSchool/todo/index.html",
+    "precache-manifest.d077bc781d090e869f2821812d103ae8.js": "/WebHeroSchool/todo/precache-manifest.d077bc781d090e869f2821812d103ae8.js",
+    "service-worker.js": "/WebHeroSchool/todo/service-worker.js",
+    "static/css/main.9c3584a3.chunk.css.map": "/WebHeroSchool/todo/static/css/main.9c3584a3.chunk.css.map"
+  }
+}

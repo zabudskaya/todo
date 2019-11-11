@@ -1,0 +1,61 @@
+.list{
+    list-style-type: none;
+    padding: 10px 0 10px 20px;
+    margin: 0;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px;
+    position: relative;
+}
+.checkbox{
+    cursor: pointer;
+    opacity: 0;
+}
+.checkbox + label{
+    cursor: pointer;
+    position: relative;
+}
+.checkbox + label:before{
+    position: absolute;
+    left: -10px;
+    top: 2px;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border: 2px solid #303f9f;
+    border-radius: 2px;
+}
+.checkbox:checked + label:before{
+    content: '\2713';
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 12px;
+    background-color: #303f9f;
+}
+.button{
+    position: absolute;
+    right: 0;
+    top: 3px;
+    color: #303f9f;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 10px;
+    background-color: #fff;
+    opacity: 0.9;
+    padding: 0;
+    border: 0;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    outline: none;
+}
+.button:hover{
+    font-size: 22px;
+    opacity: 1;
+}
