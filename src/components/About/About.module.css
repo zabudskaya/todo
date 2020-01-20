@@ -1,0 +1,25 @@
+.user{
+    display: flex;
+    flex-direction: column;
+}
+.username{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.username:hover{
+    font-size: 22px;
+}
+
+.img{
+    width: 50%;
+    height: 50%;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    font-size: 18px;
+}
