@@ -16,7 +16,7 @@ class App extends React.Component{
                 <div className={styles.wrap}>
                     <Card className={styles.menu}>
                         <MenuList >
-                            <Link to='/about' className={styles.link}>
+                            <Link to='/' className={styles.link}>
                                 <MenuItem>Обо мне</MenuItem>
                             </Link>
                             <Link to='/todo' className={styles.link}>
@@ -29,7 +29,7 @@ class App extends React.Component{
                     </Card>
 
                     <Card className={styles.content}>
-                        <Route path='/about' component={About}/>
+                        <Route path='/' exact component={About}/>
                         <Route path='/todo' component={Todo}/>
                         <Route path='/contacts' component={Contacts}/>
                     </Card>
