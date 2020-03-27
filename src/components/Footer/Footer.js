@@ -1,15 +1,35 @@
 import React from 'react';
-import styles from './Footer.module.css'
-import PropTypes from 'prop-types'
+import styles from './Footer.module.css';
+import PropTypes from 'prop-types';
 
-const Footer = ({ count }) => (<p className={styles.text}>Вот столько дел еще осталось сделать: { count }</p>);
+class Footer extends React.Component{
 
-Footer.defaultProps = {
-    count: 4
-};
+    static defaultProps = {
+        count: 4,
+    };
 
-Footer.propTypes = {
-    count: PropTypes.number.isRequired
-};
+    static propTypes = {
+        count: PropTypes.number.isRequired
+    };
+
+
+
+    render(){
+        const {count, onFilter, filter} = this.props;
+
+        return(
+            <div>
+                <p className={styles.text}>Вот столько у Вас задач: {count} </p>
+                <div className={styles.filter}>
+                    <button id="all" type="button" className={styles.filterItem + ' ' + (filter === 'all' ? styles.active : '')} onClick={() => onFilter('all')}>Все</button>
+                    <button id="fulfilled" type="button" className={styles.filterItem + ' ' + (filter === 'fulfilled' ? styles.active : '')} onClick={() => onFilter('fulfilled')}>Выполненные</button>
+                    <button id="unfulfilled" type="button" className={styles.filterItem + ' ' + (filter === 'unfulfilled' ? styles.active : '')} onClick={() => onFilter('unfulfilled')}>Невыполненные</button>
+                </div>
+            </div>
+        );
+    }
+}
+
+
 
 export default Footer;
