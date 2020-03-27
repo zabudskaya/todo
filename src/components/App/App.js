@@ -11,7 +11,7 @@ class App extends React.Component{
 
     render(){
         return (
-            <Router basename={'/todo/build/'}>
+            <Router>
                 <div className={styles.wrap}>
                     <Card className={styles.menu}>
                         <MenuList className={styles.list}>
