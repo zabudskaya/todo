@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, NavLink} from 'react-router-dom';
+import { HashRouter as Router, Route, NavLink} from 'react-router-dom';
 import Card from '@material-ui/core/Card';
 import MenuList from '@material-ui/core/MenuList';
 import MenuItem from '@material-ui/core/MenuItem';
