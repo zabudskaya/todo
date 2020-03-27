@@ -1,0 +1,135 @@
+.about{
+    padding: 0 !important;
+}
+
+.repos{
+    margin-bottom: 35px;
+}
+
+.list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.listItem{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.link{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.link:hover{
+    color: #3f51b5;
+    font-weight: bold;
+}
+
+.description{
+    opacity: 0.8;
+    margin: 10px 0 0 0;
+
+}
+
+.bottomBlocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.language{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.languageText{
+    font-size: 15px;
+    opacity: 0.8;
+    margin: 10px 0 10px 10px;
+
+}
+
+.languageColor{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+.yellow{
+    background-color: #f1e05a;
+}
+.purple{
+    background-color:#563d7c;
+}
+
+.red{
+    background-color: #e34c26;
+}
+
+.demo{
+    font-size: 14px;
+    color: #000;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.demo:hover{
+    color: #3f51b5;
+    font-weight: bold;
+}
+
+
+.error{
+    color: #e34c26;
+    font-weight: bold;
+}
+
+.pages{
+    display: flex;
+    justify-content: center;
+}
+
+.pagesSwitch{
+    border: none;
+    background-color: #fff;
+    border-radius: 2px;
+
+}
+
+.pagesSwitch:hover{
+    color: #3f51b5;
+}
+
+.pagesSwitch:focus{
+    outline: none;
+}
+
+.active{
+    color: #3f51b5;
+    background-color: rgba(63,81,181, 0.1);
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
