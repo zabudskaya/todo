@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/WebHeroSchool/todo/static/css/main.f12559ac.chunk.css",
-    "main.js": "/WebHeroSchool/todo/static/js/main.4ef01bf5.chunk.js",
-    "main.js.map": "/WebHeroSchool/todo/static/js/main.4ef01bf5.chunk.js.map",
-    "runtime~main.js": "/WebHeroSchool/todo/static/js/runtime~main.8a7c92da.js",
-    "runtime~main.js.map": "/WebHeroSchool/todo/static/js/runtime~main.8a7c92da.js.map",
-    "static/js/2.7c8a1e04.chunk.js": "/WebHeroSchool/todo/static/js/2.7c8a1e04.chunk.js",
-    "static/js/2.7c8a1e04.chunk.js.map": "/WebHeroSchool/todo/static/js/2.7c8a1e04.chunk.js.map",
-    "index.html": "/WebHeroSchool/todo/index.html",
-    "precache-manifest.247134532f1096feff6f9fe66f28d373.js": "/WebHeroSchool/todo/precache-manifest.247134532f1096feff6f9fe66f28d373.js",
-    "service-worker.js": "/WebHeroSchool/todo/service-worker.js",
-    "static/css/main.f12559ac.chunk.css.map": "/WebHeroSchool/todo/static/css/main.f12559ac.chunk.css.map"
+    "main.css": "/static/css/main.ba0d8d6b.chunk.css",
+    "main.js": "/static/js/main.7cbec74e.chunk.js",
+    "main.js.map": "/static/js/main.7cbec74e.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.3555b241.chunk.js": "/static/js/2.3555b241.chunk.js",
+    "static/js/2.3555b241.chunk.js.map": "/static/js/2.3555b241.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.06edb504079cc9fe0f645f5faaae271c.js": "/precache-manifest.06edb504079cc9fe0f645f5faaae271c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ba0d8d6b.chunk.css.map": "/static/css/main.ba0d8d6b.chunk.css.map"
   }
 }
